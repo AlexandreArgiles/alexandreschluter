@@ -1,0 +1,35 @@
+body {
+    background: black;
+    font-family: Arial;
+    height: 100vh;
+  }
+  .site-title {
+    font-family: Arial black;
+  }
+  .menu {
+    background: grey;
+  }
+  .menu li {
+    list-style: none;
+  }
+  a {
+    font-family: arial black;
+    text-decoration: none;
+  }
+  a:hover {
+    color: teal;
+    text-decoration: underline;
+  }
+  .menu ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  .site-title {
+    color: white;
+    text-align: center;
+  }
+  .site-subtitle {
+    color: white;
+    text-align: right;
+  }
+  
